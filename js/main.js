@@ -10,7 +10,7 @@ const getRandomInteger = (a, b) => {
   return Math.floor(result);
 };
 
-const checkMaxLength = (str, maxLength) => str.length <= maxLength;
+const checkStringLength = (string, length) => string.length <= length;
 
 getRandomInteger();
-checkMaxLength();
+checkStringLength();
